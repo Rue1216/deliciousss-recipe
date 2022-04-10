@@ -1,0 +1,95 @@
+/* css reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0% 20%;
+  background-color: #fffdfb;
+  color: rgb(56, 56, 56);
+}
+@media(max-width: 960px){
+  body{
+    padding: 0% 10%;
+  }
+}
+@media(max-width: 414px){
+  body{
+    padding: 0% 2%;
+   
+  }
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* color */
+
+
+a{
+  color: rgb(56, 56, 56);
+}
+
+/* font */
+h1{
+  font-size: 4.5rem;
+}
+h2{
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+h3{
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+h4{
+  font-size: 1rem;
+}
+h5{
+
+}
+@media(max-width:960px){
+  h1{
+    font-size: 3.5rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  h3{
+    padding-bottom: 0.75rem;
+  }
+}
+@media(max-width:768px){
+  h1{
+    font-size: 2.5rem;
+  }
+  h4{
+    font-size: 0.75rem;
+  }
+}
+@media (max-width:414px) {
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  h3{
+    font-size: 1.25rem;
+    padding-bottom: 0.25rem;
+  }
+}
