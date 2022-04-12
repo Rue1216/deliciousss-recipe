@@ -110,6 +110,7 @@ const Gradient = styled.div`
     width: 100%;
     height: 100%;
     background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
+    border-radius: 2rem;
     &:hover{  
         background: -webkit-linear-gradient(38deg, rgba(231, 48, 0, 0.5), rgba(255, 131, 0, 0));
         background: linear-gradient(38deg, rgba(231, 48, 0, 0.5), rgba(255, 131, 0, 0));
